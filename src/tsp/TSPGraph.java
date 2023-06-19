@@ -279,9 +279,11 @@ public class TSPGraph {
                     }
                 }
             }           
-            toProcess.add(nextToVisit);
+            if (nextToVisit >= 0) {
+                toProcess.add(nextToVisit);
+            }
         }
-        if (route.size()-1 != cities.size()
+        if (route.size() != cities.size()
             || matrix[cities.indexOf(route.get(0))][cities.indexOf(route.get(route.size()-1))] == 0) {
                 // Invalid route as it doesn't visit all the cities and doesn't go back to the beginning
                 return null;
