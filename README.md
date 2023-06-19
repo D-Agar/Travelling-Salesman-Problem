@@ -1,4 +1,4 @@
-# TravellingSalesmanProblem
+# Travelling Salesman Problem
  Learning to Implement Solutions to the Travelling Salesman Problem. This was done in 3 main stages:
  1. Learning how to generate the Next Lexicographical Permutation of a Numerical Sequence
  2. Determing whether a graph is a Hamiltonian Cycle or not
